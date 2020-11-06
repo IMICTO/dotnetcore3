@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="2.2.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Session04.OnionArchitecture.Core.Contracts\Session04.OnionArchitecture.Core.Contracts.csproj" />
+    <ProjectReference Include="..\Session04.OnionArchitecture.Core.Entity\Session04.OnionArchitecture.Core.Entities.csproj" />
+    <ProjectReference Include="..\Session04.OnionArchitecture.Core.Services\Session04.OnionArchitecture.Core.Services.csproj" />
+    <ProjectReference Include="..\Session04.OnionArchitecture.DataAccess.EF\Session04.OnionArchitecture.DataAccess.EF.csproj" />
+  </ItemGroup>
+
+</Project>

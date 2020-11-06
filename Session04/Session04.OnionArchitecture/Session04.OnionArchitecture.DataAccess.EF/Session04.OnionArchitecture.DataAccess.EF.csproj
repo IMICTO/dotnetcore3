@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Session04.OnionArchitecture.Core.Contracts\Session04.OnionArchitecture.Core.Contracts.csproj" />
+    <ProjectReference Include="..\Session04.OnionArchitecture.Core.Entity\Session04.OnionArchitecture.Core.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
