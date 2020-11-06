@@ -1,0 +1,16 @@
+﻿@using System.Collections.Generic;
+
+@model Dictionary<string, string>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@Model["Message"]</h1>
+
+
+    <i>@Model["Uptime"]</i>
+    <hr />
+    <B>@Model["LogLevel"]</B>
+</div>

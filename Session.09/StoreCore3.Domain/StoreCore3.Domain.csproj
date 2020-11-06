@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyVersion>20.11.309.2</AssemblyVersion>
+    <FileVersion>20.11.309.2</FileVersion>
+  </PropertyGroup>
+
+</Project>
